@@ -1,0 +1,100 @@
+%Create by Marek Ogonowski
+
+\makeatletter %w³¹cza u¿ycie "zmiennych" typu \author,\title
+
+%definicja wlasnego przesuniecia PW itd.
+\newcommand{\odstep}{\hspace{1,5cm}}
+
+%zdefiniowanie komendy rysujacej linie
+\newcommand{\linia}{\rule{\linewidth}{0.4mm}}
+
+%definicja zmienej \place
+\newcommand{\place}[1]{\gdef\@place{#1}}%
+\newcommand{\@place}{\@latex@warning@no@line{No \noexpand\place given}}
+
+%definicja zmiennej promotor
+\newcommand{\promotor}[1]{\gdef\@promotor{#1}}%
+\newcommand{\@promotor}{\@latex@warning@no@line{No \noexpand\promotor given}}
+
+%definicja zmiennej nr albumu
+\newcommand{\album}[1]{\gdef\@album{#1}}%
+\newcommand{\@album}{\@latex@warning@no@line{No \noexpand\album given}}
+
+%definicja zmiennej kierunek studiów
+\newcommand{\kierunek}[1]{\gdef\@kierunek{#1}}%
+\newcommand{\@kierunek}{\@latex@warning@no@line{No \noexpand\kierunek given}}
+
+%definicja zmiennej nr albumu
+\newcommand{\specjalnosc}[1]{\gdef\@specjalnosc{#1}}%
+\newcommand{\@specjalnowsc}{\@latex@warning@no@line{No \noexpand\specjalnosc given}}
+
+%zmiana definicji strony tytu³owej
+\renewcommand{\maketitle}{\begin{titlepage}
+
+	\begin{figure}
+	\vspace*{-1cm}
+		\begin{center}
+
+			\includegraphics[scale=0.08]{PW}
+			\qquad
+			\hspace*{10cm}
+			\includegraphics[scale=0.08]{MEiL}
+		\end{center}	
+	\end{figure}
+	
+	\vspace*{-1,2cm}	
+	\noindent\linia
+
+	\vspace*{-3,7cm}
+	\begin{center}
+		\odstep
+    	\textbf{\Large {POLITECHNIKA WARSZAWSKA}}
+    	\\[10pt]  \odstep
+    	\textbf{\large {Wydzia³ \\ \odstep
+    	 Mechaniczny Energetyki i Lotnictwa}}
+    	\\[7pt] \odstep 
+    	\normalsize {Zak³ad Teorii Maszyn i Robotów}
+    \end{center} 
+
+	\vspace{2cm}
+    
+    \begin{center}
+    	\LARGE {TEORIA STEROWANIA I}
+    \end{center}
+    
+    \vspace{0.5cm}
+    
+    \begin{center}
+      \Large \textsc{\@author}
+    \end{center}
+    
+    \vspace{0.5cm}
+
+	\begin{center}
+		\LARGE \textsc{\@title}
+	\end{center}
+
+	\vspace{1,5cm}
+
+    \begin{flushright}
+    	\begin{minipage}{6cm}
+    		\textit{\footnotesize numer albumu:}
+    		\footnotesize {\@album} \\
+    		\textit{\footnotesize kierunek:}
+    		\footnotesize {\@kierunek} \\
+    		\textit{\footnotesize specjalnoœæ:}
+    		\footnotesize {\@specjalnosc} \\
+    	\end{minipage}
+     \end{flushright}
+     
+    \vspace*{\stretch{18}}
+     
+
+
+    \begin{center}
+	   \@place, \@date
+    \end{center}
+
+  \end{titlepage}
+}
+\makeatother %wy³¹cza u¿ycie "zmiennych" typu \author,\title

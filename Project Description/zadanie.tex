@@ -1,0 +1,69 @@
+\chapter{Zadanie}
+
+\section{Treœæ projektu}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=16 cm]{foto/SCHEMAT.png}
+\caption{Schemat uk³adu regulacji}
+\label{fig:ZADANIE}
+\end{figure} 
+
+Dla uk³adu regulacji o powy¿szej strukturze wybraæ czas próbkowania  \( T_p \)   oraz dobraæ tak transmitancjê regulatora dyskretnego \( R(z) \) , aby otrzymaæ uk³ad regulacji spe³niaj¹cy nastêpuj¹ce wymagania:
+
+\begin{itemize}
+\item uchyby po³o¿eniowy i prêdkoœciowy w stanie ustalonym s¹ najmniejsze z mo¿liwych do osi¹gniêcia,
+\item  wymuszenia \( r \) o maksymalnej prêdkoœci \( r_1 \)  i maksymalnym przyspieszeniu \( r_2 \) s¹ przenoszone
+z uchybem nie wiêkszym ni¿ \( \varepsilon \) ,
+\item  odpowiedŸ uk³adu regulacji na skok jednostkowy charakteryzuje siê ma³¹ oscylacyjnoœci¹ i niezbyt
+du¿ym czasem ustalania, co jest zwi¹zane z przyjêt¹ przez projektanta maksymaln¹ wielkoœci¹
+piku rezonansowego \( M_p \) uk³adu zamkniêtego,
+\item  modu³ sterowania \( u \) nie przekracza rozs¹dnej granicy.
+\end{itemize}
+
+Projekt powinien przedstawiaæ co najmniej:
+\begin{itemize}
+\item transmitancjê i równanie ró¿nicowe wybranego regulatora,
+\item charakterystyki czêstotliwoœciowe transmitancji: \\
+\begin{center}
+\( G(j\omega), HG^*(j\omega), HG^*(jv),\) \\
+\( L^*(jv) = R^*(jv)HG^*(jv), \)
+\end{center}
+\item charakterystykê Nyquista zaprojektowanego uk³adu otwartego,
+\item przyjêt¹ przez projektanta maksymaln¹ wielkoœci¹ piku rezonansowego \( M_p \) uk³adu zamkniêtego,
+\item charakterystykê amplitudow¹ funkcji wra¿liwoœci \( |S*(j\omega)| \) oraz charakterystykê amplitudow¹ dope³niaj¹cej funkcji wra¿liwoœci (transmitancji uk³adu zamkniêtego) \( |T*(j\omega)| \), charakterystykê
+amplitudow¹ funkcji wra¿liwoœci sterowania \( |R*(j\omega)| \) , zaprojektowanego systemu pokazuj¹ce,
+¿e spe³niono postawione wymagania w dziedzinie czêstotliwoœciowej,
+\item odpowiedzi uk³adu regulacji na:
+\begin{itemize}
+\item skok jednostkowy,
+\item skok jednostkowy o amplitudzie \( (r_1)^2/r_2 \) ,
+\item wymuszenie harmoniczne: \\
+\begin{center}
+\( t \mapsto r(t) = \frac{(r_1)^2}{r_2} sin(\frac{r_2}{r_1}t)  \) \\
+\end{center}
+\item wymuszenie o trapezoidalnym przebiegu prêdkoœci i prêdkoœci maksymalnej równej \( r_1 \)
+oraz przyspieszeniu maksymalnym równym \( r_2 \) ,
+\item sterowanie wywo³ane powy¿szym wymuszeniem, pokazuj¹ce, ¿e spe³niono wymagania w dziedzinie czasowej.
+\end{itemize}
+\end{itemize}
+\section{Dane do projektu}
+Zestaw numer 16:
+\begin{itemize}
+\item Transmitancja:
+\begin{center}
+\( G(s)= \frac{150}{s(1.12s+1)(0.224s+1)}  \) \\
+\end{center}
+\item Maksymalna prêdkoœæ:
+\begin{center}
+\( r_1=1 \) \\
+\end{center}
+\item Maksymalne przyspieszenie:
+\begin{center}
+\( r_2=0.8 \) \\
+\end{center}
+\item Dok³adnoœæ
+\begin{center}
+\( \varepsilon=0.005 \) \\
+\end{center}
+\end{itemize}	 

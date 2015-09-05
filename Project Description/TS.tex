@@ -1,0 +1,56 @@
+\documentclass[12pt,oneside,a4paper]{report}
+\usepackage[OT4]{polski}
+\usepackage[cp1250]{inputenc}
+\usepackage{geometry}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{indentfirst}
+\usepackage{hyperref} % paczka do hiper³¹czy
+\usepackage{geometry}
+%\usepackage{showframe}
+\usepackage{sidecap} % paczka do wstawiania opisów zdjêæ
+\usepackage{wrapfig} % paczka do op³ywania zdjêæ
+\usepackage{pdfpages}
+\usepackage{listings}
+\usepackage{mathrsfs}
+%\usepackage{verbatim}
+\lstset{language=Matlab}
+
+
+
+\geometry{marginparwidth=0mm,
+left=25mm,
+right=25mm,
+top=25mm,
+bottom=30mm,
+footskip=15mm}
+
+\input{my_config}
+
+\author{in¿. Daniel Wlaz³o}
+\album{244123}
+\kierunek{Automatyka i Robotyka}
+\specjalnosc{Robotyka}
+\title{Opis rozwi¹zania pierwszego zadania projektowego}
+\place{Warszawa}
+
+\begin{document}
+	\maketitle
+	
+
+\linespread{1.3} 	
+\tableofcontents 
+	
+\linespread{1.3} 	
+\input{zadanie.tex}
+\input{wstep.tex}
+\input{wnioski.tex}
+
+
+\listoffigures
+\listoftables
+
+\input{bibliografia.tex}
+
+\end{document}

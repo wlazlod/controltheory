@@ -1,0 +1,15 @@
+\contentsline {chapter}{\numberline {1}Zadanie}{2}{chapter.1}
+\contentsline {section}{\numberline {1.1}Tre\'s\'c projektu}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Dane do projektu}{3}{section.1.2}
+\contentsline {chapter}{\numberline {2}Proces projektowania}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Sprawdzenie zachowania symulowanego obiektu bez regulatora dyskretnego}{4}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Analiza transmitancji obiektu}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Dok\IeC {\l }adna transmitancja dyskretna obiektu}{6}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Transmitancja widmowa}{6}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Transmitancja pseudocz\k estotliwo\'sciowa}{9}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}Projektowanie regulatora}{13}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Wyznaczenie obszar\'ow zabronionych}{13}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Wyznaczenie wzmocnienia regulatora}{14}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Wyznaczenie v1 i v2}{14}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Regulator}{16}{subsection.2.2.4}
+\contentsline {chapter}{\numberline {3}Wnioski}{17}{chapter.3}
