@@ -62,3 +62,33 @@ bodemag(L_limit2,'r');
 semilogx([2/Tp 2/Tp],[-150 100],'r', 'DisplayName', 'R_limit');
 bodemag(HGW_lag, 'b');
 hold off;
+
+%Section 3 Stability, sensitivity function
+CWn2=c2d(CWn,Tp,'tustin')
+z=tf('z');
+CWn2_lag=CWn2/z;
+L=HG*CWn2_lag
+
+figure(4);
+NO=nyquistoptions;
+NO.XLim=[-2,0.5];
+NO.XLimMode='manual';
+NO.Grid='on';
+NO.ShowFullContour='off'; 
+nyquist(L,NO);
+
+figure(5);
+margin(L)
+
+S=1/(1+L)
+T=L*S
+
+figure(6);
+BO=bodeoptions;
+BO.MagScale='linear';
+BO.MagUnits='abs';
+bodemag(S,T,BO2);
+
+figure(7);
+Q=S*CWn2_lag;
+bodemag(Q,BO2);
