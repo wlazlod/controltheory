@@ -104,3 +104,5 @@ t = 0:0.004:10;
 usim = r1*r1/r2*sin(r2/r1*t);
 lsim(L/(1+L),usim,t);
 figure(11);
+utrap = trap(t, r1, r2);
+lsim(L/(1+L),utrap,t);
