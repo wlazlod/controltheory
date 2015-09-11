@@ -106,3 +106,7 @@ lsim(L/(1+L),usim,t);
 figure(11);
 utrap = trap(t, r1, r2);
 lsim(L/(1+L),utrap,t);
+figure(12);
+lsim(HG/(1+L),utrap,t);
+figure(13);
+lsim(1/(1+L),utrap,t);
