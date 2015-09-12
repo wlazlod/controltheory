@@ -27,11 +27,12 @@ hold off;
 % Section 2 Regulator
 % Calculating  the minimum gain margin, Gm, phase margin, Pm, and associated frequencies Wg and Wp
 [Gm,Pm,Wg,Wp]=margin(HGW);
-Wp;
+Wp
 
 Vg_max=0.44/Tp %maxiumum value of Vg
 Vg = 80; %Smaller than Vg_max
 
+Mp=1.4;
 V1=Vg*(Mp-1)/Mp
 V2=Vg*(Mp+1)/Mp
 
@@ -53,7 +54,7 @@ hold off;
 k=3; %gain
 nCv=k*conv([1/nu1 1],[1/Wp 1]); %nominator of transfer function of controller
 dCv=conv([1/nu2 1],[1/nu2 1]); %denominator of transfer function of controller
-CWn=tf(nCv,dCv);
+CWn=tf(nCv,dCv)
 LW=CWn*HGW_lag;
 
 figure(3);
@@ -87,11 +88,11 @@ figure(6);
 BO=bodeoptions;
 BO.MagScale='linear';
 BO.MagUnits='abs';
-bodemag(S,T,BO2);
+bodemag(S,T,BO);
 
 figure(7);
 Q=S*CWn2_lag;
-bodemag(Q,BO2);
+bodemag(Q,BO);
 
 %Section 4 Presentation of results:
 figure(8);

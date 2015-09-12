@@ -62,3 +62,58 @@ Przybli¿enie transmitancji pseudoczêstotliwoœciowej:
 
 
 \section{Projektowanie regulatora}
+\subsection{Dobór wzmocnienia regulatora}
+
+Pierwszym krokiem zbli¿aj¹cym do obliczenia wzmocnienia by³o wyznaczenie obszaru zabronionego.
+Korzystaj¹c z definicji wymagañ: \\
+\begin{center}
+Maksymalna prêdkoœæ: \( r_1=1 \) \\
+Maksymalne przyspieszenie: \( r_2=0.8 \) \\
+Dok³adnoœæ: \( \varepsilon=0.005 \) \\
+\end{center}
+obliczam wielkoœci \( \omega _a \) oraz \( L_gr \): \\
+\begin{center}
+\( \omega_a = \frac{r_2}{r_1}=0.8\) \\
+\( L \ge \frac{1}{\epsilon} \frac{(r_1)^2}{r_2}\frac{1.16\cdot 4}{\pi}=369.2 \)
+\end{center}
+Na podstawie tych wartoœci wykreœlono wykres obszaru zabronionego. Naniesiono na niego równie¿ wykres transmitancji \( HG^{w*}(j\nu) \). 
+\begin{figure}[H]
+\centering
+\includegraphics[width=16 cm]{photo/HGW_lag.png}
+\caption{Obszar zabroniony}
+\label{fig:HGW_lag}
+\end{figure} 
+Z analizy wykresu wynika, ¿e minimalne wzmocnienie, jakie powinien wprowadzaæ regulator wynosi  \( k_r=3 \)
+
+\subsection{Dobór nowej pulsacji granicznej}
+Naturalna pseudopulsacja graniczna obiektu:  \( \nu _{gob}=8.0395 \). \\
+Ograniczenie wynikaj¹ce z wprowadzenia opóŸnienia: \( \nu _g < 110 \). \\
+Przyjêto \( \nu _g = 80 \).\\
+Z faktu przyjêcia, i¿ \( M_p = 1.4 \),
+wynika, ¿e: \\ \( \nu _1 \le \nu _g \frac{M_p-1}{M_p}= 22.8571; \nu _2 \ge \nu _g \frac{M_p+1}{M_p}= 137.1429\) \\
+Na podstawie przeprowadzonych symulacji dzia³ania regulatora, dobrano \( \nu _1=8,  \nu_2=400 \).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=16 cm]{photo/L_Bode.png}
+\caption{Wykres Bodego dla obiektu z regulatorem}
+\label{fig:HGW_lag}
+\end{figure} 
+
+\section{Regulator}
+\subsection{Transmitancja}
+
+Transmitancja regulatora wynosi:\\ 
+\begin{center}
+\( R(j \nu)=\frac{0.04664 j \nu^2 + 0.7482 j \nu + 3}{6.25e-06 j \nu^2 + 0.005 j \nu + 1} \)
+\end{center}
+Transmitancja impulsowa regulatora wynosi:\\ 
+\begin{center}
+\( R(z)=\frac{2378 z^2 - 4606 z + 2230}{z^3-0.2222 z^2 + 0.01235 z}\)
+\end{center}
+Równanie ró¿nicowe:\\
+\begin{center}
+\(u(k)=0.2222u(k-1)-0.01235u(k-2) + (2378e(k-1) - 4606e(k-2) + 2230)e(k-3)\)
+\end{center}
+
+\subsection{Stabilnoœæ}
