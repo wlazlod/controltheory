@@ -9,9 +9,9 @@ epsilon = 0.005; %accuracy
 s=tf('s');  %definition of the operator s
 G=150/(s*(1.12*s+1)*(0.224*s+1)) %transfer function of object
 Tp=0.004; %sampling time, smaller than 1/10 of smallest time constant of G
-HG=c2d(G,Tp); %spectral transfer function
-HGW=d2c(HG,'tustin'); %pseudo-transfer function
-HGWa=G*(1-0.5*Tp*s); %approximation of pseudo-transfer function
+HG=c2d(G,Tp) %spectral transfer function
+HGW=d2c(HG,'tustin') %pseudo-transfer function
+HGWa=G*(1-0.5*Tp*s) %approximation of pseudo-transfer function
 
 %Bode plot for G, HG, HGW & HGWa
 h=bodeplot(HGW, HGWa); 
@@ -29,11 +29,11 @@ hold off;
 [Gm,Pm,Wg,Wp]=margin(HGW);
 Wp;
 
-Vg_max=0.44/Tp; %maxiumum value of Vg
+Vg_max=0.44/Tp %maxiumum value of Vg
 Vg = 80; %Smaller than Vg_max
 
-V1=Vg*(Mp-1)/Mp;
-V2=Vg*(Mp+1)/Mp;
+V1=Vg*(Mp-1)/Mp
+V2=Vg*(Mp+1)/Mp
 
 nu1=8; % nu1 < V1
 nu2=400; % nu2 > V2
