@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.28)  12 SEP 2015 15:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.28)  12 SEP 2015 15:16
 entering extended mode
 **TS.tex
 ("C:\Users\Daniel\Desktop\Control Theory\Project Description\TS.tex"
@@ -345,6 +345,12 @@ LaTeX Warning: Label `fig:HGW_lag' multiply defined.
 
 LaTeX Warning: Label `fig:HGW_lag' multiply defined.
 
+
+LaTeX Warning: Label `fig:HGW_lag' multiply defined.
+
+
+LaTeX Warning: Label `fig:HGW_lag' multiply defined.
+
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
@@ -459,13 +465,13 @@ LaTeX Info: Redefining \selectfont on input line 126.
 )
 \c@lstlisting=\count124
 
-<PW.png, id=67, 853.589pt x 853.589pt>
+<PW.png, id=71, 853.589pt x 853.589pt>
 File: PW.png Graphic file (type png)
  <use PW.png>
 Package pdftex.def Info: PW.png used on input line 39.
 (pdftex.def)             Requested size: 68.28851pt x 68.28851pt.
 
-<MEiL.png, id=69, 427.999pt x 852.786pt>
+<MEiL.png, id=73, 427.999pt x 852.786pt>
 File: MEiL.png Graphic file (type png)
  <use MEiL.png>
 Package pdftex.def Info: MEiL.png used on input line 39.
@@ -507,7 +513,7 @@ l.1 \chapter
 
 ]
 Rozdzia\PlPrIeC {\l } 1.
-<foto/SCHEMAT.png, id=103, 1122.44344pt x 241.65282pt>
+<foto/SCHEMAT.png, id=108, 1122.44344pt x 241.65282pt>
 File: foto/SCHEMAT.png Graphic file (type png)
  <use foto/SCHEMAT.png>
 Package pdftex.def Info: foto/SCHEMAT.png used on input line 7.
@@ -535,13 +541,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 ) ("C:\Users\Daniel\Desktop\Control Theory\Project Description\wstep.tex"
 [3]
 Rozdzia\PlPrIeC {\l } 2.
-<foto/Transmitancja.png, id=121, 926.71219pt x 130.98938pt>
+<foto/Transmitancja.png, id=126, 926.71219pt x 130.98938pt>
 File: foto/Transmitancja.png Graphic file (type png)
 
 <use foto/Transmitancja.png>
 Package pdftex.def Info: foto/Transmitancja.png used on input line 14.
 (pdftex.def)             Requested size: 455.24408pt x 64.34924pt.
- <foto/HGz.png, id=122, 656.4525pt x 248.42813pt>
+ <foto/HGz.png, id=127, 656.4525pt x 248.42813pt>
 File: foto/HGz.png Graphic file (type png)
 
 <use foto/HGz.png>
@@ -551,7 +557,7 @@ Package pdftex.def Info: foto/HGz.png used on input line 22.
 
  <C:/Users/Daniel/Desktop/Control Theory/Project Description/foto/Transmitancja
 .png>]
-<photo/Transfer_functions.png, id=129, 711.4078pt x 680.5425pt>
+<photo/Transfer_functions.png, id=134, 711.4078pt x 680.5425pt>
 File: photo/Transfer_functions.png Graphic file (type png)
 
 <use photo/Transfer_functions.png>
@@ -568,7 +574,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--75
  []
 
 [6 <C:/Users/Daniel/Desktop/Control Theory/Project Description/photo/Transfer_f
-unctions.png (PNG copy)>] <photo/HGW_lag.png, id=143, 710.655pt x 680.5425pt>
+unctions.png (PNG copy)>] <photo/HGW_lag.png, id=148, 710.655pt x 680.5425pt>
 File: photo/HGW_lag.png Graphic file (type png)
 
 <use photo/HGW_lag.png>
@@ -576,7 +582,7 @@ Package pdftex.def Info: photo/HGW_lag.png used on input line 82.
 (pdftex.def)             Requested size: 455.24408pt x 435.96107pt.
  [7 <C:/Users/Daniel/Desktop/Control Theory/Project Description/photo/HGW_lag.p
 ng (PNG copy)>]
-<photo/L_Bode.png, id=149, 710.655pt x 680.5425pt>
+<photo/L_Bode.png, id=154, 710.655pt x 680.5425pt>
 File: photo/L_Bode.png Graphic file (type png)
  <use photo/L_Bode.png>
 Package pdftex.def Info: photo/L_Bode.png used on input line 98.
@@ -597,37 +603,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
-<photo/L_nyq.png, id=155, 710.655pt x 680.5425pt>
+<photo/L_nyq.png, id=160, 710.655pt x 680.5425pt>
 File: photo/L_nyq.png Graphic file (type png)
  <use photo/L_nyq.png>
 Package pdftex.def Info: photo/L_nyq.png used on input line 124.
 (pdftex.def)             Requested size: 455.24408pt x 435.96107pt.
 
-<photo/L_stab.png, id=156, 710.655pt x 680.5425pt>
+<photo/L_stab.png, id=161, 710.655pt x 680.5425pt>
 File: photo/L_stab.png Graphic file (type png)
  <use photo/L_stab.png>
 Package pdftex.def Info: photo/L_stab.png used on input line 130.
 (pdftex.def)             Requested size: 455.24408pt x 435.96107pt.
 
 [9] [10 <C:/Users/Daniel/Desktop/Control Theory/Project Description/photo/L_nyq
-.png (PNG copy)>] <photo/ST.png, id=167, 710.655pt x 680.5425pt>
+.png (PNG copy)>] <photo/ST.png, id=172, 710.655pt x 680.5425pt>
 File: photo/ST.png Graphic file (type png)
 
 <use photo/ST.png>
 Package pdftex.def Info: photo/ST.png used on input line 146.
 (pdftex.def)             Requested size: 455.24408pt x 435.96107pt.
- <photo/Q.png, id=168, 710.655pt x 680.5425pt>
+ <photo/Q.png, id=173, 710.655pt x 680.5425pt>
 File: photo/Q.png Graphic file (type png)
 
 <use photo/Q.png>
 Package pdftex.def Info: photo/Q.png used on input line 152.
 (pdftex.def)             Requested size: 455.24408pt x 435.96107pt.
  [11 <C:/Users/Daniel/Desktop/Control Theory/Project Description/photo/L_stab.p
-ng (PNG copy)>])
+ng (PNG copy)>] [12 <C:/Users/Daniel/Desktop/Control Theory/Project Description
+/photo/ST.png (PNG copy)>])
 ("C:\Users\Daniel\Desktop\Control Theory\Project Description\wnioski.tex"
-[12 <C:/Users/Daniel/Desktop/Control Theory/Project Description/photo/ST.png (P
-NG copy)>] [13 <C:/Users/Daniel/Desktop/Control Theory/Project Description/phot
-o/Q.png (PNG copy)>]
+[13 <C:/Users/Daniel/Desktop/Control Theory/Project Description/photo/Q.png (PN
+G copy)>]
 Rozdzia\PlPrIeC {\l } 3.
 ) [14
 
@@ -646,203 +652,12 @@ Rozdzia\PlPrIeC {\l } 3.
 LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 6.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\polski\ot4cmtt.fd"
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-)
-Underfull \hbox (badness 2512) in paragraph at lines 11--12
-[]\OT4/cmr/m/n/12 Regulamin za-wo-dów Ro-bo-tic Day, []$\OT4/cmtt/m/n/12 http :
- / / www . roboticday . org / 2014 / rules /$
- []
-
-
-Underfull \hbox (badness 4441) in paragraph at lines 14--15
-[]\OT4/cmr/m/n/12 Pololu, Pro-duct 2212 []$\OT4/cmtt/m/n/12 http : / / www . po
-lolu . com / product / 2212$[]\OT4/cmr/m/n/12 , da-ta do-st¦-pu
- []
-
-
-Underfull \hbox (badness 4441) in paragraph at lines 15--16
-[]\OT4/cmr/m/n/12 Pololu, Pro-duct 1090 []$\OT4/cmtt/m/n/12 http : / / www . po
-lolu . com / product / 1090$[]\OT4/cmr/m/n/12 , da-ta do-st¦-pu
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-[]\OT4/cmr/m/n/12 Pololu, Pro-duct 950 []$\OT4/cmtt/m/n/12 http : / / www . pol
-olu . com / product / 950$[]\OT4/cmr/m/n/12 , da-ta do-st¦-pu
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-[]\OT4/cmr/m/n/12 Pololu, Pro-duct 713 []$\OT4/cmtt/m/n/12 http : / / www . pol
-olu . com / product / 713$[]\OT4/cmr/m/n/12 , da-ta do-st¦-pu
- []
-
-
-Underfull \hbox (badness 2460) in paragraph at lines 18--19
-[]\OT4/cmr/m/n/12 Dynamixel AX-12A, User's Ma-nu-al []$\OT4/cmtt/m/n/12 http : 
-/ / www . electronickits . com / robot /$
- []
+))
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
 
 [17
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-$\OT4/cmtt/m/n/12 st-[]web-[]ui / static / active / jp / resource / technical /
- document / user _ manual /$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-[]\OT4/cmr/m/n/12 STMicroelectronics, STM32F100RB da-ta-she-et []$\OT4/cmtt/m/n
-/12 http : / / www . st . com / web / en /$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-$\OT4/cmtt/m/n/12 resource / technical / document / datasheet / CD00251732 . pd
-f$[]\OT4/cmr/m/n/12 , da-ta do-st¦-pu
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-[]\OT4/cmr/m/n/12 Botland, Du-al-sky 7,4 V []$\OT4/cmtt/m/n/12 http : / / botla
-nd . com . pl / lipo-[]dualsky /$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-$\OT4/cmtt/m/n/12 2395-[]pakiet-[]lipol-[]dualsky-[]2200mah-[]25c-[]2s-[]74v-[]
-eco-[]s . html$[]\OT4/cmr/m/n/12 , da-ta do-st¦-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-[]\OT4/cmr/m/n/12 Sparkfun, SEN-10530 da-ta-she-et []$\OT4/cmtt/m/n/12 http : /
- / dlnmh9ip6v2uc . cloudfront . net /$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-[]\OT4/cmr/m/n/12 Texas In-stru-ment, LM339 da-ta-she-et []$\OT4/cmtt/m/n/12 ht
-tp : / / www . ti . com / lit / ds / symlink /$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-[]\OT4/cmr/m/n/12 SHARP GP2Y0A41SK0 da-ta-she-et, []$\OT4/cmtt/m/n/12 http : / 
-/ www . ti . com / lit / ds / symlink /$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-[]\OT4/cmr/m/n/12 Kingbright, []$\OT4/cmtt/m/n/12 http : / / www . kingbright .
- com / attachments / file / psearch / 000 / 00 /$
- []
-
-
-Underfull \hbox (badness 4441) in paragraph at lines 28--29
-[]\OT4/cmr/m/n/12 Pololu, Pro-duct 1442 []$\OT4/cmtt/m/n/12 http : / / www . po
-lolu . com / product / 1442$[]\OT4/cmr/m/n/12 , da-ta do-st¦-pu
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-[]\OT4/cmr/m/n/12 Botland, Du-al-sky 11,1 V []$\OT4/cmtt/m/n/12 http : / / botl
-and . com . pl / lipo-[]dualsky /$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-$\OT4/cmtt/m/n/12 2487-[]pakiet-[]lipol-[]dualsky-[]3300mah-[]25c-[]2s-[]111v .
- html$[]\OT4/cmr/m/n/12 , da-ta do-st¦-pu
- []
-
-
-Underfull \hbox (badness 2469) in paragraph at lines 30--31
-[]\OT4/cmr/m/n/12 Pololu, Pro-duct 2110 []$\OT4/cmtt/m/n/12 https : / / www . p
-ololu . com / product / 2110$[]\OT4/cmr/m/n/12 , da-ta do-st¦-pu
- []
-
-
-Underfull \hbox (badness 1221) in paragraph at lines 32--33
-[]\OT4/cmr/m/n/12 ST Mi-cro-elec-tro-nics, VNH5019ATR-E []$\OT4/cmtt/m/n/12 htt
-p : / / www . st . com / st-[]web-[]ui / static /$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-[]\OT4/cmr/m/n/12 Infineon Tech-no-lo-gies AG, TLE4946-2K []$\OT4/cmtt/m/n/12 h
-ttp : / / www .$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-$\OT4/cmtt/m/n/12 infineon . com / dgdl / Infineon-[]TLE4946 _ 2K-[]DS-[]v01 _ 
-00-[]en .$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-$\OT4/cmtt/m/n/12 pdf ? folderId = db3a30431f848401011facc1c83b4674 & fileId =$
-
- []
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-[]\OT4/cmr/m/n/12 Raspberry Pi []$\OT4/cmtt/m/n/12 http : / / www . raspberrypi
- . org / documentation / hardware /$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-[]\OT4/cmr/m/n/12 Raspberry PI HD Ca-me-ra []$\OT4/cmtt/m/n/12 http : / / www .
- raspberrypi . org /$
- []
-
-
-Underfull \hbox (badness 4001) in paragraph at lines 37--38
-[]\OT4/cmr/m/n/12 TME, AC-CORD KB1604-PAB []$\OT4/cmtt/m/n/12 http : / / www . 
-tme . eu / pl / details / kb1604-[]pab /$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-[]\OT4/cmr/m/n/12 Botland, wy-±wie-tlacz 4x20 []$\OT4/cmtt/m/n/12 http : / / bo
-tland . com . pl /$
- []
-
-
-Overfull \hbox (141.80876pt too wide) in paragraph at lines 38--39
-$\OT4/cmtt/m/n/12 wyswietlacze-[]alfanumeryczne / 2640-[]wyswietlacz-[]lcd-[]4x
-20-[]znakow-[]niebieski-[]konwerter-[]i2c-[]lcm1602 .$
- []
-
-
-Underfull \hbox (badness 2469) in paragraph at lines 39--40
-[]\OT4/cmr/m/n/12 Pololu, Pro-duct 1264 []$\OT4/cmtt/m/n/12 https : / / www . p
-ololu . com / product / 1264$[]\OT4/cmr/m/n/12 , da-ta do-st¦-pu
- []
-
-
-Underfull \hbox (badness 1975) in paragraph at lines 40--41
-[]\OT4/cmr/m/n/12 Hokuyo, URG-04LX-UG01 []$\OT4/cmtt/m/n/12 https : / / www . h
-okuyo-[]aut . jp / 02sensor / 07scanner /$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
-[]\OT4/cmr/m/n/12 DAGU Hi-Tech Elec-tro-nic []$\OT4/cmtt/m/n/12 http : / / dagu
-robot . diytrade . com / sdp / 895152 / 4 /$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
-$\OT4/cmtt/m/n/12 pd-[]4555778 / 5252103-[]1798792 / ROBOT _ KIT _ RA-[]001 _ S
-IX _ SERVO _ ROBOT _ ARM . html$[]\OT4/cmr/m/n/12 ,
- []
-
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
- [19]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
  ("C:\Users\Daniel\Desktop\Control Theory\Project Description\TS.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
@@ -854,21 +669,21 @@ Package rerunfilecheck Warning: File `TS.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `TS.out':
-(rerunfilecheck)             Before: AF896FF565E759EC8FC967D3744C5430;1167
-(rerunfilecheck)             After:  7C6D91F937C7CC13DF1E0BC8A0F9DC92;1241.
+(rerunfilecheck)             Before: 7C6D91F937C7CC13DF1E0BC8A0F9DC92;1241
+(rerunfilecheck)             After:  07978D6FC4E3242F972423FFBF03DA7D;1320.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
  ) 
 Here is how much of TeX's memory you used:
- 8738 strings out of 493921
- 129195 string characters out of 3144873
- 257558 words of memory out of 3000000
- 11778 multiletter control sequences out of 15000+200000
+ 8703 strings out of 493921
+ 128818 string characters out of 3144873
+ 253558 words of memory out of 3000000
+ 11779 multiletter control sequences out of 15000+200000
  14571 words of font info for 44 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 37i,7n,40p,283b,438s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,7n,40p,256b,438s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/pl/pltt.enc}{C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/enc/dvips/pl/plit.enc}{C:/Program Files (x86)/MiKTeX
  2.9/fonts/enc/dvips/pl/plrm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/d
@@ -888,9 +703,9 @@ pe1/public/pl/plr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/p
 l/plr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/pl/plti10.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/pl/plti12.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/pl/pltt12.pfb>
-Output written on TS.pdf (20 pages, 604883 bytes).
+Output written on TS.pdf (18 pages, 572949 bytes).
 PDF statistics:
- 405 PDF objects out of 1000 (max. 8388607)
- 91 named destinations out of 1000 (max. 500000)
- 189 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 300 PDF objects out of 1000 (max. 8388607)
+ 55 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
