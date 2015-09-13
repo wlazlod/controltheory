@@ -1,14 +1,17 @@
 \chapter{Wnioski}
 
-Celami pracy by³y:
+Celami projektu by³o wybraæ czas próbkowania  \( T_p \) oraz dobraæ tak transmitancjê regulatora dyskretnego \( R(z) \) , aby otrzymaæ uk³ad regulacji spe³niaj¹cy nastêpuj¹ce wymagania::
 
 \begin{itemize}
-	\item zapoznanie siê z literatur¹ w zakresie robotyki mobilnej,
-	\item wykonanie przegl¹du rozwi¹zañ w zakresie budowy robotów kategorii Ketchup House,
-	\item okreœlenie wymagañ stawianych robotom Pomidor 1,5 oraz PACMAN,
-	\item zaprojektowanie oraz wykonanie czêœci mechanicznych robotów Pomidor 1,5 oraz PACMAN,
-	\item wykonanie œrodowiska testowego dla testów czujników oraz planszy zgodnej z regulaminami zawodów, 
-	\item przeprowadzenie testów robotów.
+\item uchyby po³o¿eniowy i prêdkoœciowy w stanie ustalonym s¹ najmniejsze z mo¿liwych do osi¹gniêcia,
+\item  wymuszenia \( r \) o maksymalnej prêdkoœci \( r_1 \)  i maksymalnym przyspieszeniu \( r_2 \) s¹ przenoszone
+z uchybem nie wiêkszym ni¿ \( \varepsilon \) ,
+\item  odpowiedŸ uk³adu regulacji na skok jednostkowy charakteryzuje siê ma³¹ oscylacyjnoœci¹ i niezbyt
+du¿ym czasem ustalania, co jest zwi¹zane z przyjêt¹ przez projektanta maksymaln¹ wielkoœci¹
+piku rezonansowego \( M_p \) uk³adu zamkniêtego,
+\item  modu³ sterowania \( u \) nie przekracza rozs¹dnej granicy.
 \end{itemize}
 
+Niestety, pomimo wielokrotnych prób doboru zmiennych regulatora, nie uda³o siê doprowadziæ do sytuacji w której wszystkie z powy¿szych wymagañ by³yby spe³nione. Próby wyeliminowania uchybu, b¹dŸ przyspieszenia dzia³ania uk³adu skutkowa³y utrat¹ stabilnoœci (uk³ad schodzi³ z zapasem modu³u poni¿ej 6 dB). Aby unikn¹æ niestabilnie dzia³aj¹cego uk³adu zdecydowano siê na pozostawienie regulatora w powy¿szej formie, zdaj¹c sobie sprawê z jego niedoci¹gniêæ.
 
+Projekt w znacz¹cy sposób przyczyni³ siê do zrozumienia dzia³ania regulatorów oraz lepszego poznania oprogramowania in¿ynierskiego: MatLAB (z pakietem Simulink), Rstudio oraz LaTeX.

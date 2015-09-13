@@ -14,5 +14,9 @@
 \contentsline {subsection}{\numberline {2.3.1}Transmitancja}{9}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Stabilno\'s\'c}{9}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Funkcje wra\.zliwo\'sci}{11}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Odpowiedzi na zadane sygna\IeC {\l }y}{13}{section.2.4}
-\contentsline {chapter}{\numberline {3}Wnioski}{14}{chapter.3}
+\contentsline {section}{\numberline {2.4}Odpowiedzi na zadane sygna\IeC {\l }y}{14}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Odpowied\'z uk\IeC {\l }adu na skok jednostkowy}{15}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Odpowied\'z uk\IeC {\l }adu na skok o zadanej amplitudzie }{16}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Odpowied\'z uk\IeC {\l }adu na wymuszenie sinusoidalne }{18}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Odpowied\'z uk\IeC {\l }adu na wymuszenie trapezowe }{19}{subsection.2.4.4}
+\contentsline {chapter}{\numberline {3}Wnioski}{22}{chapter.3}
